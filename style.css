@@ -1,0 +1,73 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+body {
+        background-color: purple;
+        font-family: 'Bebas Neue', cursive;
+}
+
+button {
+        padding: 5px 15px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(124, 0, 124);
+        border: none;
+        font-family: 'Bebas Neue',
+                cursive;
+        letter-spacing: 5px;
+        text-align: center;
+        font-weight: 100;
+        cursor: pointer;
+}
+
+
+p {
+        font-size: 60px;
+        padding: 0 10px;
+        border: 1px solid purple;
+}
+
+h5 {
+        font-weight: 100;
+        font-size: 20px;
+}
+
+.main-content {
+        height: 100vh;
+        display: grid;
+}
+
+.stopwatch {
+        text-align: center;
+        width: 333px;
+        height: 180px;
+        background-color: white;
+        display: flex;
+        flex-flow: wrap;
+        align-items: center;
+        margin: auto;
+        padding: 30px;
+
+}
+
+.stopwatch-content {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+}
+
+.content {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        background-color: white;
+        margin-bottom: 10px;
+}
+
+.buttons {
+        position: absolute;
+        bottom: 0;
+        left: 18px;
+}

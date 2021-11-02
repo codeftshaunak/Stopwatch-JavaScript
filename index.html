@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>StopWatch</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+                @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+        </style>
+</head>
+
+<body>
+
+        <section>
+                <div class="main-content">
+
+                        <div class="stopwatch">
+                                <h5>STOP WATCH</h5>
+                                <div class="stopwatch-content">
+
+                                        <div class="content">
+                                                <div class="hr">
+                                                        <p id="hr">00</p>
+                                                </div>
+                                                <div class="min">
+                                                        <p id="min">00</p>
+                                                </div>
+                                                <div class="sec">
+                                                        <p id="sec">00</p>
+                                                </div>
+                                                <div class="count">
+                                                        <p id="count">00</p>
+                                                </div>
+                                        </div>
+
+
+
+                                        <div class="buttons">
+                                                <button onclick="Start()">Start</button>
+                                                <button onclick="Reset()">Reset</button>
+                                                <button onclick="Stop()">Stop</button>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </section>
+
+        <script src="./script.js"></script>
+
+</body>
+
+</html>
