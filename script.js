@@ -45,15 +45,15 @@ function stopWatch() {
                         sc.innerHTML = (sec < 10) ? `0${sec}` : sec;
                 }
 
-                if (sc == 60) {
-                        min += 1;
+                if (sec == 60) {
+                        mn += 1;
                         sec = 0;
-                        min.innerHTML = (min < 10) ? `0${min}` : min;
+                        mn.innerHTML = (mn < 10) ? `0${mn}` : mn;
                 }
 
-                if (min == 60) {
+                if (mn == 60) {
                         hr += 1;
-                        min = 0;
+                        mn = 0;
                         hrr.innerHTML = (hr < 10) ? `0${hr}` : hr;
                 }
 
